@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - music
+  - Button
   layers:
   - Default
   - TransparentFX
@@ -14,8 +16,8 @@ TagManager:
   - 
   - 
   - tombol
-  - 
-  - 
+  - atas tombol
+  - atasnya lagi
   - 
   - 
   - 

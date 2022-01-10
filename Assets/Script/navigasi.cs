@@ -16,9 +16,31 @@ public class navigasi : MonoBehaviour
     {
         
     }
-
+    // NAVIGASI TOMBOL
     public void ke(int step){
         //Application.LoadLevel (step);
         SceneManager.LoadScene(step);
     }
+
+    //click sound
+    public AudioSource SoundFx;
+    public AudioClip click;
+    public AudioClip hover;
+
+    public void hoverSound(){
+        SoundFx.PlayOneShot (hover);
+    }
+
+    public void clickSound(){
+        SoundFx.PlayOneShot (click);
+    } 
+
+    // QUIT BUTTON
+    public void Exit(){
+        Application.Quit();
+        Debug.Log("Keluar!!");
+    }
+
+
+   
 }
